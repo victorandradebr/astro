@@ -1,0 +1,6 @@
+postgres:
+    port: "5435"
+project:
+    name: astro---airflow
+webserver:
+    port: "7777"
