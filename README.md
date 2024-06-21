@@ -23,9 +23,9 @@ Pipeline voltado para a operação de ETL de dados no formato de CSV e aquisiç�
 
 
 ## Explanation
-O pipenile consiste em uma unico arquivo python voltado para o processamento usando biblioteca como pandas, requests e logging. O pandas acabou sendo usado para a extrção e limpeza desses dados, enquanto o requests foi usado para o a requisão na API disponivel e o logging para acompanhar as sequencias de execução do pipeline.
+O pipenile consiste em uma unico arquivo python voltado para o processamento usando bibliotecas como pandas, requests e logging. O pandas acabou sendo usado para a extração e limpeza desses dados, enquanto o requests foi usado para o a requisão na API disponivel e o logging para acompanhar as sequencias de execução do pipeline.
 
-`Google Cloud Functions`: Pensando na quantidade de dados disponibilizada, acredito que para o processamento faria mais sentido o uso de uma ferramenta Serveless, já que não teriamos a necessidade de paralelizar a operação, então a ferrementa escolhida foi o `Cloud Functions` da própria GCP, principalmente por não exigir a necessidade tão grande de configurção e por ter a caracteristica de ser Serveless.
+`Google Cloud Functions`: Pensando na quantidade de dados disponibilizada, acredito que para o processamento faria mais sentido o uso de uma ferramenta Serveless, já que não teriamos a necessidade de paralelizar a operação, então a ferrementa escolhida foi o `Cloud Functions` da própria GCP, principalmente por não exigir a necessidade tão grande de configuração e por ter a caracteristica de ser Serveless.
 
 `Goolge Bigquery`: O uso do Bigquery foi feito com base na exigência do avaliador.
 
