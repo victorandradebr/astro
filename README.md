@@ -32,3 +32,29 @@ O pipenile consiste em uma unico arquivo python voltado para o processamento usa
 `Airflow - Astro`: Pensando na falicidade de deploy de uma ambiente Airflow atualizado, foi feita a escolha do Astro, que nada mais é quem um ambiente open-source e de facil uso para fins de desenvolvimento. Foram cogitado o uso do Airflow em softwares como Cloud Compose ou sendo executado em uma Compute Engine, mas focando em simplacidade acabei optando pelo o deploy local.
 
 `Terraform`: Escolhido principalmente pelo facil gerenciamento, configuração de ambiente e principalmente pela facilidade para encerrar o uso de todos os recursos.
+
+## Resultados
+
+1 - Query:
+![alt text](image.png)
+
+2 - Query:
+![alt text](image-1.png)
+
+3 - Query:
+![alt text](image-2.png)
+
+4 - Query:
+![alt text](image-3.png)
+
+5 - Query:
+![alt text](image-4.png)
+
+6 - Query:
+![alt text](image-5.png)
+
+7 - Query:
+![alt text](image-6.png)
+
+8 - Query:
+![alt text](image-7.png)
